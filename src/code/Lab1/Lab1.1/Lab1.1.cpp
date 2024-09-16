@@ -7,40 +7,40 @@ int main() {
 
     setlocale(LC_ALL, "Russian");
 
-    // Ввод двух чисел 
+    // Р’РІРѕРґ РґРІСѓС… С‡РёСЃРµР» 
 
     double num1, num2;
-    cout << "Введите два числа: ";
+    cout << "Р’РІРµРґРёС‚Рµ РґРІР° С‡РёСЃР»Р°: ";
     cin >> num1 >> num2;
 
-    // 1. Сумма чисел 
+    // 1. РЎСѓРјРјР° С‡РёСЃРµР» 
 
     double sum = num1 + num2;
-    cout << "Сумма чисел: " << sum << endl;
+    cout << "РЎСѓРјРјР° С‡РёСЃРµР»: " << sum << endl;
 
-    // 2. Разность чисел 
+    // 2. Р Р°Р·РЅРѕСЃС‚СЊ С‡РёСЃРµР» 
 
     double difference = num1 - num2;
-    cout << "Разность чисел: " << difference << endl;
+    cout << "Р Р°Р·РЅРѕСЃС‚СЊ С‡РёСЃРµР»: " << difference << endl;
 
-    // 3. Произведение чисел 
+    // 3. РџСЂРѕРёР·РІРµРґРµРЅРёРµ С‡РёСЃРµР» 
 
     double product = num1 * num2;
-    cout << "Произведение чисел: " << product << endl;
+    cout << "РџСЂРѕРёР·РІРµРґРµРЅРёРµ С‡РёСЃРµР»: " << product << endl;
 
-    // 4. Среднее арифметическое чисел 
+    // 4. РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ С‡РёСЃРµР» 
 
     double average = (num1 + num2) / 2;
-    cout << "Среднее арифметическое чисел: " << average << endl;
+    cout << "РЎСЂРµРґРЅРµРµ Р°СЂРёС„РјРµС‚РёС‡РµСЃРєРѕРµ С‡РёСЃРµР»: " << average << endl;
 
-    // 5. Разность максимального и минимального по модулю 
+    // 5. Р Р°Р·РЅРѕСЃС‚СЊ РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ Рё РјРёРЅРёРјР°Р»СЊРЅРѕРіРѕ РїРѕ РјРѕРґСѓР»СЋ 
 
     double absNum1 = (num1 >= 0) ? num1 : -num1;
     double absNum2 = (num2 >= 0) ? num2 : -num2;
     double maxAbs = (absNum1 >= absNum2) ? absNum1 : absNum2;
     double minAbs = (absNum1 < absNum2) ? absNum1 : absNum2;
     double differenceMaxMinAbs = maxAbs - minAbs;
-    cout << "Разность максимального и минимального по модулю: " << differenceMaxMinAbs << endl;
+    cout << "Р Р°Р·РЅРѕСЃС‚СЊ РјР°РєСЃРёРјР°Р»СЊРЅРѕРіРѕ Рё РјРёРЅРёРјР°Р»СЊРЅРѕРіРѕ РїРѕ РјРѕРґСѓР»СЋ: " << differenceMaxMinAbs << endl;
 
     return 0;
 }
